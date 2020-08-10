@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:id="@+id/imageview"
+            android:src="@mipmap/ic_launcher"
+            android:scaleType="center"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textview"
+            android:gravity="center"
+            android:text="Welcome to gangapur"
+            android:padding="8dp"></TextView>
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
